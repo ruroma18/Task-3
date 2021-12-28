@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.head-container {
+  display: inline-block;
+  background-image: url(./../img/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 40vh 0;
+}
+
+.main-header {
+  text-align: center;
+  color: #926239;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.header-text {
+  text-align: center;
+  color: #926239;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.header-button {
+  display: block;
+  height: 50px;
+  width: 150px;
+  border: 1px solid #926239;
+  color: #926239;
+  margin: 10px auto;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+.header-button:hover {
+  background-color: #926239;
+  color: white;
+}
+
