@@ -44,3 +44,31 @@
   color: white;
 }
 
+.big-section {
+  display: block;
+  width: 100vw;
+}
+
+.small-section-container {
+  display: inline-block;
+  font-size: 0px;
+}
+
+.small-section {
+  display: inline-block;
+  width: 33%;
+}
+
+.section-text {
+  padding: 20px;
+  background-color: #926239;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 17px;
+  color: whitesmoke;
+}
+
+.inversed {
+  background-color: whitesmoke;
+  color: #926239;
+}
